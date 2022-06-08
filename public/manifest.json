@@ -1,6 +1,6 @@
 {
-  "name": "Zenia",
-  "description": "Berbagai tools yang dibuat oleh Zen",
+  "name": "Get Ayat",
+  "description": "Tools to get the Quran verse number and juz number based on the page number",
   "icons": {
     "128": "icon.png"
   },
@@ -10,5 +10,5 @@
   },
   "manifest_version": 2,
   "browser_action": {},
-  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 'unsafe-eval'; connect-src ws:; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:; font-src 'self' data:;"
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 'unsafe-eval'; connect-src *; style-src * 'unsafe-inline' 'self' blob:; img-src * data:; font-src *;"
 }
