@@ -9,6 +9,6 @@ browser.browserAction.onClicked.addListener((tab) => {
 });
 
 function showReadme(info, tab) {
-  let url = browser.runtime.getURL("index.html");
+  let url = browser.runtime.getURL("https://tools.zenia.my.id/get-ayat");
   browser.tabs.create({ url });
 }
