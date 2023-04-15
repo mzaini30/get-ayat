@@ -14,6 +14,10 @@
     juz = olah_juz(nomor_halaman);
     surat = olah_surat(nomor_halaman);
   }
+
+  function wa() {
+    open("https://chat.whatsapp.com/Lq6TDKgJtXpJ3EsuyUSAcO", "_blank");
+  }
 </script>
 
 <div class="w-full min-h-screen bg-green-200 p-5 grid grid-cols-3 gap-5">
@@ -30,6 +34,12 @@
   </div>
   <div>
     <Judul>Surat</Judul>
-    <Textarea is_readonly bind:isi={surat} />
+    <div class="mb-3">
+      <Textarea is_readonly bind:isi={surat} />
+    </div>
+    <div class="flex justify-between">
+      <div />
+      <Tombol on:klik={wa} teks="Join Community" />
+    </div>
   </div>
 </div>

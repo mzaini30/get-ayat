@@ -11,6 +11,7 @@
 <style>
   :global(*) {
     word-wrap: break-word;
+    font-size: 1rem;
   }
   /* chrome extension */
   /* :global(body) {
