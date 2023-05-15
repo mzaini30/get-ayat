@@ -1,5 +1,6 @@
 <script>
   import Putih from "../komponen/putih.svelte";
+  import Wa from "../komponen/wa.svelte";
   import Textarea from "../komponen/textarea.svelte";
   import Judul from "../komponen/judul.svelte";
   import Tombol from "../komponen/tombol.svelte";
@@ -37,9 +38,11 @@
     <div class="mb-3">
       <Textarea is_readonly bind:isi={surat} />
     </div>
-    <div class="flex justify-between">
+    <!-- <div class="flex justify-between">
       <div />
       <Tombol on:klik={wa} teks="Join Community" />
-    </div>
+    </div> -->
   </div>
 </div>
+
+<Wa />
